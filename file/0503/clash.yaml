@@ -5,12 +5,12 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 美国优化1, server: us1.lala2021.tk, port: 6611, type: vmess, uuid: 6c67549a-33b3-4060-9b7d-342a333c2a35, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us1.lala2021.tk}}
-  - {name: 🇺🇸 美国优化3, server: us3.lala2021.tk, port: 6611, type: vmess, uuid: 6c67549a-33b3-4060-9b7d-342a333c2a35, alterId: 3, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us3.lala2021.tk}}
-  - {name: 🇯🇵 日本优化1, server: jp1.lala2021.tk, port: 6611, type: vmess, uuid: 6c67549a-33b3-4060-9b7d-342a333c2a35, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jp1.lala2021.tk}}
-  - {name: 🇯🇵 日本优化2, server: jp2.lala2021.tk, port: 6611, type: vmess, uuid: 6c67549a-33b3-4060-9b7d-342a333c2a35, alterId: 5, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jp2.lala2021.tk}}
-  - {name: 🇰🇷 韩国优化1, server: kr1.lala2021.tk, port: 6611, type: vmess, uuid: 6c67549a-33b3-4060-9b7d-342a333c2a35, alterId: 6, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: kr1.lala2021.tk}}
-  - {name: 🇰🇷 韩国优化2, server: kr2.lala2021.tk, port: 6611, type: vmess, uuid: 6c67549a-33b3-4060-9b7d-342a333c2a35, alterId: 7, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: kr2.lala2021.tk}}
+  - {name: 🇺🇸 美国优化1, server: us1.lala2021.tk, port: 6611, type: vmess, uuid: 47d63092-b5e3-4753-9c26-f54730789a4a, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us1.lala2021.tk}}
+  - {name: 🇺🇸 美国优化3, server: us3.lala2021.tk, port: 6611, type: vmess, uuid: 47d63092-b5e3-4753-9c26-f54730789a4a, alterId: 3, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: us3.lala2021.tk}}
+  - {name: 🇯🇵 日本优化1, server: jp1.lala2021.tk, port: 6611, type: vmess, uuid: 47d63092-b5e3-4753-9c26-f54730789a4a, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jp1.lala2021.tk}}
+  - {name: 🇯🇵 日本优化2, server: jp2.lala2021.tk, port: 6611, type: vmess, uuid: 47d63092-b5e3-4753-9c26-f54730789a4a, alterId: 5, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jp2.lala2021.tk}}
+  - {name: 🇰🇷 韩国优化1, server: kr1.lala2021.tk, port: 6611, type: vmess, uuid: 47d63092-b5e3-4753-9c26-f54730789a4a, alterId: 6, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: kr1.lala2021.tk}}
+  - {name: 🇰🇷 韩国优化2, server: kr2.lala2021.tk, port: 6611, type: vmess, uuid: 47d63092-b5e3-4753-9c26-f54730789a4a, alterId: 7, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: kr2.lala2021.tk}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
